@@ -11,7 +11,7 @@ A Java Core simulation of a smart parking management system demonstrating Object
 * **Data Deduplication:** HashSet with custom equals() and hashCode() in ParkingPass to prevent duplicate pass IDs.
 
 ## 🧱 Project Structure
-Vehicle.java — Abstract base class.
+* `Vehicle.java` — Abstract base class.
 
 * `Tesla.java` / `EScooter.java` — Concrete vehicle implementations.
 
