@@ -20,7 +20,7 @@ public class Tesla extends Vehicle implements Electric,  GPSNavigable {
     @Override
     public void printSpecs() {
         System.out.println("=== VEHICLE SPECS ===");
-        System.out.println("Model: " + this.getModel() + ", MaxSpeed: " + this.getMaxSpeed() + " km/h, Battery Capacity: " + batteryCapacity + " mAh");
+        System.out.println("Model: " + this.getModel() + ", MaxSpeed: " + this.getMaxSpeed() + " km/h, Battery Capacity: " + batteryCapacity + " kWh");
     }
 
 
@@ -32,7 +32,7 @@ public class Tesla extends Vehicle implements Electric,  GPSNavigable {
 
     @Override
     public void chargeBattery() {
-        System.out.println("Tesla " + this.getModel() + " is charging at a Superstation charger. Capacity: " + batteryCapacity + " mah." );
+        System.out.println("Tesla " + this.getModel() + " is charging at a Superstation charger. Capacity: " + batteryCapacity + " kWh." );
     }
 
 
